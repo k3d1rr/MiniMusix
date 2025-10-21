@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1234567890ABCDEF1234567890ABCDEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDEE /* AppDelegate.m */; };
+		1234567890ABCDEF1234567890ABCDF0 /* MediaMonitorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDEF /* MediaMonitorModel.m */; };
+		1234567890ABCDEF1234567890ABCDF1 /* EnhancedMediaDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDF2 /* EnhancedMediaDetector.m */; };
+		1234567890ABCDEF1234567890ABCDF3 /* StatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDF4 /* StatusBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1234567890ABCDEF1234567890ABCDE0 /* MiniMusix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMusix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1234567890ABCDEF1234567890ABCDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE2 /* MiniMusix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniMusix.entitlements; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE5 /* MediaMonitorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaMonitorModel.h; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE6 /* MediaMonitorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaMonitorModel.m; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE7 /* EnhancedMediaDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnhancedMediaDetector.h; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE8 /* EnhancedMediaDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhancedMediaDetector.m; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE9 /* StatusBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarController.h; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDEA /* StatusBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1234567890ABCDEF1234567890ABCDB0 /* MiniMusix */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDC0 /* Supporting Files */,
+				1234567890ABCDEF1234567890ABCDD0 /* Controllers */,
+				1234567890ABCDEF1234567890ABCD E0 /* Models */,
+				1234567890ABCDEF1234567890ABCDF0 /* Views */,
+			);
+			path = MiniMusix;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE1 /* Info.plist */,
+				1234567890ABCDEF1234567890ABCDE2 /* MiniMusix.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDD0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE3 /* AppDelegate.h */,
+				1234567890ABCDEF1234567890ABCDE4 /* AppDelegate.m */,
+				1234567890ABCDEF1234567890ABCDE7 /* EnhancedMediaDetector.h */,
+				1234567890ABCDEF1234567890ABCDE8 /* EnhancedMediaDetector.m */,
+				1234567890ABCDEF1234567890ABCDE9 /* StatusBarController.h */,
+				1234567890ABCDEF1234567890ABCDEA /* StatusBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE5 /* MediaMonitorModel.h */,
+				1234567890ABCDEF1234567890ABCDE6 /* MediaMonitorModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE0 /* MiniMusix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1234567890ABCDEF1234567890ABCDB1 /* MiniMusix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1234567890ABCDEF1234567890ABCDB2 /* Build configuration list for PBXNativeTarget "MiniMusix" */;
+			buildPhases = (
+				1234567890ABCDEF1234567890ABCDB3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMusix;
+			productName = MiniMusix;
+			productReference = 1234567890ABCDEF1234567890ABCDE0 /* MiniMusix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1234567890ABCDEF1234567890ABCDA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = MiniMusix;
+				TargetAttributes = {
+					1234567890ABCDEF1234567890ABCDB1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1234567890ABCDEF1234567890ABCDA1 /* Build configuration list for PBXProject "MiniMusix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1234567890ABCDEF1234567890ABCDAF;
+			productRefGroup = 1234567890ABCDEF1234567890ABCDD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1234567890ABCDEF1234567890ABCDB1 /* MiniMusix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1234567890ABCDEF1234567890ABCDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1234567890ABCDEF1234567890ABCDEF /* AppDelegate.m in Sources */,
+				1234567890ABCDEF1234567890ABCDF0 /* MediaMonitorModel.m in Sources */,
+				1234567890ABCDEF1234567890ABCDF1 /* EnhancedMediaDetector.m in Sources */,
+				1234567890ABCDEF1234567890ABCDF3 /* StatusBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1234567890ABCDEF1234567890ABCDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1234567890ABCDEF1234567890ABCDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1234567890ABCDEF1234567890ABCDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniMusix/Supporting\ Files/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiniMusix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 MiniMusix. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimusix.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1234567890ABCDEF1234567890ABCDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniMusix/Supporting\ Files/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiniMusix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 MiniMusix. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimusix.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1234567890ABCDEF1234567890ABCDA1 /* Build configuration list for PBXProject "MiniMusix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1234567890ABCDEF1234567890ABCDA2 /* Debug */,
+				1234567890ABCDEF1234567890ABCDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1234567890ABCDEF1234567890ABCDB2 /* Build configuration list for PBXNativeTarget "MiniMusix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1234567890ABCDEF1234567890ABCDB4 /* Debug */,
+				1234567890ABCDEF1234567890ABCDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1234567890ABCDEF1234567890ABCDA0 /* Project object */;
+}
