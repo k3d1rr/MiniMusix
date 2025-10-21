@@ -16,17 +16,27 @@ A powerful, native macOS miniplayer that monitors system media and presents a sl
 
 ## 🚀 Installation
 
-### Option 1: Web Download (Recommended)
-1. Download the latest `MiniMusix-Release.dmg` from the [Releases](https://github.com/username/minimusix/releases) page
-2. Open the DMG file and drag `MiniMusix.app` to your Applications folder
-3. Right-click the app → **Open** (bypass Gatekeeper)
-4. Grant Accessibility permissions in **System Settings > Privacy & Security > Accessibility**
+### Option 1: Download DMG (Recommended)
+1. Go to the [latest release](https://github.com/k3d1rr/MiniMusix/releases/latest)
+2. Download `MiniMusix-Release.dmg` from the assets
+3. Open the DMG file
+4. Drag `MiniMusix.app` to your Applications folder
+5. Right-click the app → **Open** (to bypass Gatekeeper)
+6. Grant Accessibility permissions in **System Settings > Privacy & Security > Accessibility**
 
-### Option 2: Build from Source
+### Option 2: Download .app Bundle
+1. Go to the [latest release](https://github.com/k3d1rr/MiniMusix/releases/latest)
+2. Download `MiniMusix.app.zip` from the assets
+3. Unzip the file to get `MiniMusix.app`
+4. Drag `MiniMusix.app` to your Applications folder
+5. Right-click the app → **Open** (to bypass Gatekeeper)
+6. Grant Accessibility permissions in **System Settings > Privacy & Security > Accessibility**
+
+### Option 3: Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/username/minimusix.git
-cd minimusix
+git clone https://github.com/k3d1rr/MiniMusix.git
+cd MiniMusix
 
 # Open in Xcode
 open MiniMusix/MiniMusix.xcodeproj
